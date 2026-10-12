@@ -3,6 +3,16 @@
 Aplikasi manajemen proyek berbasis **Gantt Chart** yang berjalan sepenuhnya di browser
 (tanpa server, tanpa build step). Semua data tersimpan otomatis di `localStorage`.
 
+## Tampilan
+
+**Gantt Chart** — timeline, bar tugas (dengan warna prioritas & progres), panah dependensi FS/SS, penanda akhir pekan/libur, dan jalur kritis (merah):
+
+![Gantt Chart](docs/screenshots/gantt-chart.png)
+
+**Analisis Proyek** — statistik jalur kritis + diagram **PERT** (box ES/EF/LS/LF per tugas):
+
+![Analisis & Diagram PERT](docs/screenshots/analysis.png)
+
 ## Cara Menjalankan
 
 Cukup buka `index.html` di browser (double-click). Atau jalankan server statis:
